@@ -1,3 +1,3 @@
-export default (req: Request) => {
-  return new Response(`Hello, from Deno v${Deno.version.deno}!`);
-};
+import { app } from "../src/app";
+
+export default app.fetch;
