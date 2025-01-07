@@ -1,7 +1,7 @@
-import { Hono } from "npm:hono";
-import { cors } from "npm:hono/cors";
-import { jwt } from "npm:hono/jwt";
-import { serve } from "npm:inngest/hono";
+import { Hono } from "hono";
+import { cors } from "hono/cors";
+import { jwt } from "hono/jwt";
+import { serve } from "inngest/hono";
 
 export const app = new Hono();
 

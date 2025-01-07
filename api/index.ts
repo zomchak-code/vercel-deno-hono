@@ -1,4 +1,4 @@
-#!/usr/bin/env deno run -A
+#!/usr/bin/env deno run
 
 import { app } from "../src/app.ts";
 
